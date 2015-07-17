@@ -1,0 +1,11 @@
+# no lyx backups
+*~
+\#*#
+
+# no weird MAC OS X drama
+__MACOSX
+
+# hidden directories
+.*
+!/.gitignore
+
