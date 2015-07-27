@@ -509,6 +509,35 @@ reference "tab:symbols"
 Results
 \end_layout
 
+\begin_layout Standard
+this is a fabulous result 
+\begin_inset Formula $z=\mathrm{exp}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Anthes2008"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Anthes2008"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \begin_layout Subsection
 Two mating types
 \end_layout
@@ -871,7 +900,7 @@ Figures and Tables
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1164,7 +1193,7 @@ name "fig:life_cycle"
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "/home/bram/Projects/databases/references"
+bibfiles "references"
 options "bram"
 
 \end_inset
