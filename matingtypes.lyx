@@ -84,6 +84,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 385438751 "Zena Hadjivasiliou" 
 \end_header
 
 \begin_body
@@ -163,6 +164,33 @@ Introduction
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 385438751 1439303967
+ZENA: Bram, In think the intro is a good first draft and has a lot of very
+ good refrences which is great! My view is that it should be more focused
+ on stochastic versus deterministic mechanisms of sex determination.
+ I think that the bipolar/tetrapolar/multiallelic systems in ciliates and
+ fungi are interesting but beyond the scope of this paper.
+ We can discuss how we know that lots of animals have stochastic sex determinati
+on and can change their sex during their life time and this has been studied
+ a lot.
+ But fact is many protists have stochastic sex determination and why this
+ is the case has received little attention.
+ Then give some detailed examples of how mating type changes stochastically
+ in paramecium, tetrahemena, yeast (this is important and interesting I
+ think, and you got all the info!).
+ Then give a table of different species, some basic info (e.g.
+ how many mating types) and whether or not stochastic swicthing has been
+ documented.
+ Then we introduce our idea and our modelling effort.
+ I tried to have a go at this but it still needs work and you know way more
+ than me from your reading.
+ I am open to suggestions of doing this otherwise, so we can chat when we
+ are both back.
+ 
+\end_layout
+
+\begin_layout Standard
 Explaining the remarkable diversity in sex-determining mechanisms has been
  a long-standing question in evolutionary biology 
 \begin_inset CommandInset citation
@@ -213,9 +241,114 @@ key "Paixao2011"
 \end_inset
 
 .
+\change_inserted 385438751 1439303254
+
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 385438751 1439303655
+(THOUGHT: IT MAY BE WORTH TALKING ABOUT SEX CHANGING IN ANIMALS OR EPIGENETIC
+ SEX DETERMINATION IN ANIMALS TO LEAD TO THIS?)Particularly interesting
+ is the repeated evolution of non-Mendelian forms of mating-type determination,
+ where the mating type identity switches between parents and their offspring
+ or later descendants.
+ For example, in a number of ciliates such as 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 385438751 1439303255
+
+
+\backslash
+emph{Paramecium}
+\end_layout
+
+\end_inset
+
+, an individual's mating type is epigenetically determined by the macronucleus
+ in the parent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Phadke2009,Sawka2012,Bloomfield2014"
+
+\end_inset
+
+, and can be modulated dependent on the parental environment (IS THIS DURING
+ CLONAL GOWTH? WE SHOULD MAKE IT CLEAR HERE.
+ MORE INFRO WOULD BE USEFUL...) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sawka2012"
+
+\end_inset
+
+.
+ In the ciliate 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 385438751 1439303255
+
+
+\backslash
+emph{Tetrahymena}
+\end_layout
+
+\end_inset
+
+, mating type is determined stochastically at sex, so that mating types
+ switch between one of 7 adjacent mating type alleles through recombination
+ each generation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Paixao2011,Cervantes2013"
+
+\end_inset
+
+.
+ Finally, in several distantly related species of ascomycete yeasts (e.g.,
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 385438751 1439303255
+
+
+\backslash
+emph{Saccharomyces}, 
+\backslash
+emph{Schizosaccharomyces} and 
+\backslash
+emph{Kluveromyces}
+\end_layout
+
+\end_inset
+
+), individuals contain at least one copy of both mating type alleles, but
+ only express one of both through different mechanisms including epigenetic
+ silencing or ectopic recombination 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Klar2007,Haber2012,Hanson2014"
+
+\end_inset
+
+.
+ 
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 385438751 1439303402
 Similar to animals and plants, however, fungi, ciliates, algae or slime
  molds exhibit a substantial amount of variation in mating-type determining
  systems 
@@ -255,9 +388,13 @@ key "Lin2007a"
 \end_inset
 
 .
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 385438751 1439303252
 Even more interesting is the repeated evolution of non-Mendelian forms of
  mating-type determination, where mating types switch between parents and
  their offspring or later descendants.
@@ -342,16 +479,46 @@ key "Klar2007,Haber2012,Hanson2014"
 
 .
  
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
 Why has mating-type switching repeatedly evolved? Despite numerous studies
  focusing on the molecular mechanisms underlying switching, few hypotheses
- exist about their evolutionary origins.
+ exist about 
+\change_deleted 385438751 1439303428
+their
+\change_inserted 385438751 1439303431
+its
+\change_unchanged
+ evolutionary origins.
  Naively, one could argue that mating type switching allows a typically
  outbreeding organism to occasionally mate with their sibling gametes when
  mates are limited.
- However, yeasts, for example, largely reproduce by selfing anyway 
+ However
+\change_inserted 385438751 1439303523
+ several species such as
+\change_deleted 385438751 1439303518
+,
+\change_unchanged
+ yeasts
+\change_deleted 385438751 1439303542
+, for example,
+\change_unchanged
+ 
+\change_inserted 385438751 1439303536
+reproduce 
+\change_unchanged
+largely 
+\change_deleted 385438751 1439303534
+reproduce
+\change_unchanged
+ by selfing 
+\change_deleted 385438751 1439303540
+anyway
+\change_unchanged
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Haber2012"
@@ -359,10 +526,39 @@ key "Haber2012"
 \end_inset
 
 .
- Alternatively, mating type switching has evolved 
+ 
+\change_deleted 385438751 1439221640
+Alternatively, mating type switching has evolved 
+\change_inserted 385438751 1439303455
+The majority of protists reproduce clonaly with sex occuring rarely following
+ internal or external cues (pnas 2015).
+ Even if a population initially has an even sex or mating type ratio, repeated
+ rounds of vegetative growth are likely to distort the proportion of different
+ mating types.
+ Here we propose that mating type switching is important because it helps
+ maintain an even mating-type ratio in finite populations.
+ By switching their sex or mating type stochastically during their vegetative
+ growth cells can ensure that they find themselves in the presence of compatible
+ partners at the next sexual cycle.
+ In this work, we develop a finite population model to study the evolution
+ of alleles imposing stochastic mating type switching during clonal growth.
+ Something more about the model.
+ We examine the conditions unde which swicthign evolves, specifically the
+ role of the population size, duration of vegetative phase, switching rates
+ and...
+ this allows us to make predictions about when swicthign shoudl evolve and
+ what the rates would be.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
+
+\change_inserted 385438751 1439221889
+I think the following should go in the discussion.
+ This is a really nice model but different to what we are doing.
+ 
+\change_unchanged
 An exception is an evolutionary study by 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -374,9 +570,28 @@ key "Paixao2011"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 385438751 1439221860
 To study the evolution of mating-type switching, we study a model of haploid
  mating type determination, in which the mating type of a gamete is determined
  by its haploid genome.
+\end_layout
+
+\begin_layout Standard
+
+\change_deleted 385438751 1439221860
+Here we propose that stochastic mating type determination during the vegetative
+ growth of an organism is adaptive because it can maintain steady sex or
+ mating-type ratios which is susceptible to fluctuations due to drift.
+ Something about how sex is not the sole means of reproduction in protists.
+ In fact it can be quite rare.
+ so each cell goes through multiple rounds of clonal growth before sex.
+ Also individuals produce gamete of one mating type or sex.
+ So when it's time for sex it may be that these individuals find themselves
+ in a situation of a biased sex ratio which will deter sex.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Section
@@ -402,28 +617,12 @@ We model a population of
 \end_inset
 
  is the maximum number of different mating types in the population.
- An individual harboring allele 
+ An individual with allele 
 \begin_inset Formula $M_{i}$
 \end_inset
 
- cannot mate with all other individuals bearing allele 
-\begin_inset Formula $M_{j}$
-\end_inset
-
- (
-\begin_inset Formula $i\neq j$
-\end_inset
-
-).
+ cannot mate with other individuals bearing the same allele.
  
-\end_layout
-
-\begin_layout Standard
-In addition, we also consider a mating type switching locus 
-\begin_inset Formula $\mathcal{S}$
-\end_inset
-
- which modifies the action of the mating type alleles.
 \end_layout
 
 \begin_layout Standard
@@ -432,34 +631,37 @@ We assume a life cycle in which cells undergo
 \end_inset
 
  rounds of vegetative growth.
- During each round of vegetative growth, each cell produces 
-\end_layout
-
-\begin_layout Standard
-the frequency of existing genotypes is doubled (so the population grows
- from 
+ During each round of vegetative growth, each cell produces two daughter
+ cells and so the population sizes grows from 
 \begin_inset Formula $N$
 \end_inset
 
  to 
-\begin_inset Formula $2N$
+\begin_inset Formula $2N.$
 \end_inset
 
-) and then sampling 
-\begin_inset Formula $N$
-\end_inset
-
- cells without replacement to form a new population of size 
+ We assume that the carrying capacity of the population is fixed and sample
+ without replacement to return to a population size equal to 
 \begin_inset Formula $N$
 \end_inset
 
 .
+ In addition, we also consider a mating type switching locus 
+\begin_inset Formula $\mathcal{S}$
+\end_inset
+
+ which modifies the action of the mating type alleles during vegetattive
+ growth with probability 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+.
  At each vegetative growth step we assume that the two daughter cells inherit
- their parents’ switching genotype.
+ their parent's switching genotype.
  If the mother cell has the switching allele, one daughter will inherit
  the maternal mating type and the other daughter cell will switch its mating
- type with probability 
-\begin_inset Formula $p$
+ type from with probability 
+\begin_inset Formula $p_{s}$
 \end_inset
 
 .
@@ -472,8 +674,8 @@ the frequency of existing genotypes is doubled (so the population grows
 \begin_inset Formula $N/2$
 \end_inset
 
- diploid cells, which will then undergo meiosis to give rise to the new
- generation.
+ diploid cells, which then undergo single step meiosis to give rise to the
+ new generation.
  If the number of mated pairs is less than 
 \begin_inset Formula $N/2$
 \end_inset
@@ -485,8 +687,19 @@ the frequency of existing genotypes is doubled (so the population grows
 
 .
  No switching occurs at the meiotic step.
- We also assume no recombination between the mating type locus and the switching
- gene.
+ We assume no linkage between the mating type locus and the switching gene
+ so 
+\begin_inset Formula $\mathcal{M}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathcal{S}$
+\end_inset
+
+ are free ti recombine at sex.
+ This life cycle is not meant to represent any particular species but captures
+ general features common amongst protists.
+ We consider several extensions to this simplest framework.
  The life cycle is illustrated schematically on Fig.
  
 \begin_inset CommandInset ref
@@ -515,9 +728,6 @@ this is a fabulous result
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Anthes2008"
@@ -531,10 +741,10 @@ key "Anthes2008"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
+ 
+\change_inserted 385438751 1439223491
+What is this?! 
+\change_unchanged
 
 \end_layout
 
@@ -565,7 +775,7 @@ We begin by considering a population with two mating types (
 \end_inset
 
  and 
-\begin_inset Formula $p$
+\begin_inset Formula $p_{s}$
 \end_inset
 
 .
@@ -587,7 +797,22 @@ key "Wright1931,Ewens2010"
 
 \begin_layout Standard
 As the number of vegetative generations between sex increases so does drift
- on the mating type locus, making switching advantageous.
+ on the mating type locus distorting the mating type ratio (Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vary_g"
+
+\end_inset
+
+A).
+ This effect decreases for larger population sizes but persists even for
+ 
+\begin_inset Formula $N$
+\end_inset
+
+=5000.
+ Mating type switching can help restore the mating-type ratio, making the
+ switching gene advantageous.
  So as 
 \begin_inset Formula $g$
 \end_inset
@@ -602,10 +827,16 @@ As the number of vegetative generations between sex increases so does drift
 
  we see a sharp increase in the fixation probability for the switching gene
  (Fig.
- 2A).
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vary_g"
+
+\end_inset
+
+B).
  Although the effects of drift are more pronounced for smaller populations
- and larger g, the probability of fixation is nearly doubled contrasted
- to that expected under drift even for larger populations (
+ and larger g, the probability of fixation is doubled contrasted to that
+ expected under drift even for larger populations (
 \begin_inset Formula $N>500$
 \end_inset
 
@@ -618,163 +849,215 @@ As the number of vegetative generations between sex increases so does drift
 \end_layout
 
 \begin_layout Standard
-The time the switching mutant appears is also important, particularly for
- smaller populations (Fig.
- 2B).
- Selection for the switching gene only acts at sex.
- It follows that mutations that trigger mating type switching which appear
- early in the vegetative phase of the life cycle can be lost due to drift
- before they become subject to selection.
- We know from existing theory [ref] that this is more likely to occur in
- smaller populations and when the vegetative growth period between the appearanc
-e of the mutant and sex is prolonged.
- This explains why the switching mutant is closer to neutral for 
-\begin_inset Formula $N=100$
-\end_inset
-
- and 
-\begin_inset Formula $t_{μ}<50$
-\end_inset
-
- in Fig.
- 2A.
- When the population size is large (
-\begin_inset Formula $N>1000$
-\end_inset
-
-), the timing of the mutation has little impact on the probability of its
- fixation (Fig.
- 2B).
- Note that even then, the variation generated in the population distorts
- the sex ratio sufficiently to provide a selective benefit for the switching
- gene (the fixation probability is about three times larger than that expected
- under drift; Fig.
- 2B).
-\end_layout
-
-\begin_layout Standard
-We proceed by varying the probability of switching.
- The same qualitative picture emerges for 
-\begin_inset Formula $N=100$
-\end_inset
-
-, 
-\begin_inset Formula $500$
-\end_inset
-
- and 
-\begin_inset Formula $1000$
+We proceed by measuring the fixation probability while varying the probability
+ of switching.
+ The same picture emerges for all 
+\begin_inset Formula $N>100$
 \end_inset
 
 : changes from 
-\begin_inset Formula $p=0$
+\begin_inset Formula $p_{s}=0$
 \end_inset
 
  to 
-\begin_inset Formula $0.25$
+\begin_inset Formula $0.1$
 \end_inset
 
  result in a significant increase in the fixation probability (Fig.
- 2C).
- For small 
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:optimal_ps"
+
+\end_inset
+
+A).
+ The fixation probability then plateaus indicating that further increase
+ in 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+ provides no additional advantage.
+ Our model therefore suggests that relatively low switching rates can be
+ sufficient to maintain the mating type ratio near 1, particularly for larger
+ populations.
+ For smaller populations (
 \begin_inset Formula $N$
 \end_inset
 
- (
-\begin_inset Formula $=100$
+=100), selection for the switching gene is stronger, the fixation probability
+ is significantly higher and plateaus at a larger value of 
+\begin_inset Formula $p_{s}$
 \end_inset
 
-) this reaches a value larger than 6 times the expected fixation probability
- under drift.
- The increase in pfix is less steep for larger populations (
-\begin_inset Formula $N>500$
+, closer to 0.5 (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:optimal_ps"
+
 \end_inset
 
-) but a robust selective advantage remains.
+A).
  
 \end_layout
 
 \begin_layout Standard
-To better understand the evolutionary dynamics of this system, and the reason
- why further increase in 
-\begin_inset Formula $q_{\mathrm{fix}}$
+To gauge how the optimal value of 
+\begin_inset Formula $p_{s}$
 \end_inset
 
- appears to be neutral, we fixed the frequency of the switching gene at
- different values and estimated the selective advantage of the mutant over
- a single round of the life cycle (Fig.
- 3A).
- Our findings indicate strong frequency dependent selection.
- When the mutant is rare it has more than a double-fold advantage (for 
-\begin_inset Formula $N=100$
-\end_inset
-
-, Fig.
- 3A).
- This declines sharply as the mutant spreads in the population and the mutant
- becomes neutral when its frequency increases above 0.8.
- When at low frequency the mutant has a large advantage as the sex ratio
- before sex is largely distorted and cells having the capacity to produce
- offspring of both mating type will have an advantage.
- As the frequency of the mutant increases, the sex ratio during the vegetative
- growth becomes more even and the relative advantage of the mutant declines.
- 
-\end_layout
-
-\begin_layout Standard
-A similar picture emerges when we simulate the evolution of the switching
- gene quantitatively.
+ changes with g we simulated the evolution of the switching gene quantitatively
+ for varying g.
  Because our model operates within a finite population scheme, we do this
  as follows.
  We assume that the population is initially at a state where the switching
- probability, pswitch, is equal to 0 for all individuals.
- We then introduce a mutant, s, at low frequency so that individuals carrying
- s have 
-\begin_inset Formula $p^{\prime}=p+\varepsilon$
+ probability, 
+\begin_inset Formula $p_{s}$
 \end_inset
 
-, and measure the selection advantage of 
-\begin_inset Formula $s$
+ , is equal to 0 for all individuals.
+ We then introduce a mutant at low frequency so that mutant individuals
+ have 
+\begin_inset Formula $p_{s}^{\prime}=p_{s}+\varepsilon$
 \end_inset
 
-.
+, and measure the selection advantage.
  We repeat this iteration from 
-\begin_inset Formula $p=0$
+\begin_inset Formula $p_{s}=0$
 \end_inset
 
  to 
-\begin_inset Formula $p=1$
+\begin_inset Formula $p_{s}=1$
 \end_inset
 
 .
+ We define the optimal 
+\begin_inset Formula $p_{s}^{*}$
+\end_inset
+
+ where selection from 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+ to 
+\begin_inset Formula $p_{s}^{\prime}$
+\end_inset
+
+ vanishes.
  Further details are provided in the Methods section.
- We can see from Fig.
- 3B that selection is stronger as pswitch increases from 
-\begin_inset Formula $0$
-\end_inset
-
- to about 
-\begin_inset Formula $0.2$
-\end_inset
-
-, but that further increase results in very shallow gradients.
  Fig.
- 3C shows the ratio of the two mating types in the population following
- a single round of vegetative growth for different values of 
-\begin_inset Formula $p$
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:optimal_ps"
+
 \end_inset
 
- and frequencies of the switching gene 
-\begin_inset Formula $q$
+B shows the value for 
+\begin_inset Formula $p_{s}^{*}$
+\end_inset
+
+ for varying g and 
+\begin_inset Formula $N$
+\end_inset
+
+: 
+\begin_inset Formula $p_{s}^{*}$
+\end_inset
+
+ decreases with g.
+ This initially appears counter to Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vary_g"
+
+\end_inset
+
+A.
+ Although a prolonged period of vegetative growth increases selection for
+ the switching gene it also provides a longer period for restoration of
+ the sex ratio.
+ So dispite large values of g correlating with stronger selection for ps
+ they are also linked to lower ps (see Appendix A1 for a quantitative account).
+ The change in 
+\begin_inset Formula $p_{s}^{*}$
+\end_inset
+
+ with 
+\begin_inset Formula $N$
+\end_inset
+
+ is as expected: smaller populations require larger 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+, particularly when g is small .
+ For larger g even small populations can maintain a reasonable mating-type
+ ratio with low 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+ (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:optimal_ps"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+To better understand the evolutionary dynamics of this system, we fixed
+ the frequency of the switching gene at different values and estimated the
+ selective advantage of the mutant over a single round of the life cycle
+ (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:freq_dep"
+
+\end_inset
+
+).
+ Our findings indicate strong frequency dependent selection.
+ The selective advantage for the mutant is higher when it is rare and decreases
+ sharply as its frequency increases.
+ Furthermore, the selection coefficient when rare is higher for mutants
+ that confer a higher switching probability (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:freq_dep"
+
+\end_inset
+
+).
+ As the frequency of the switching gene increases the advantage it confers
+ decreases.
+ This decrease is steeper when the switching probability is higher.
+ The mutant eventually becomes neutral when its frequency reaches 0.9 for
+ all 
+\begin_inset Formula $p_{s}$
 \end_inset
 
 .
- This reinforces what we saw in Fig.
- 3A and 3B: 
+ When at low frequency the mutant has a large advantage as the sex ratio
+ before sex is largely distorted and cells having the capacity to produce
+ offspring of both mating type will have an advantage.
+ As the frequency of the mutant increases (or for higher 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+), the sex ratio during the vegetative growth becomes more even and the
+ relative advantage of the mutant declines.
+ 
 \end_layout
 
 \begin_layout Subsection
-Varying selection pressure and the cost of switching 
+Introducing a switching cost 
 \end_layout
 
 \begin_layout Standard
@@ -809,42 +1092,75 @@ where
 \begin_inset Formula $f(\cdot)$
 \end_inset
 
- is imposed on cells carrying the switching gene at each mitotic step so
- that the probability of a cell being sampled at each vegetative step (Fig.
- 1) is equal to the cost function.
- This has a significant impact on the fixation probability of the switching
- gene, particularly for larger populations and higher switching rates (Fig.
- 4).
+ is imposed on cells carrying the switching gene so that the probability
+ of a cell being sampled at each vegetative step (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:life_cycle"
+
+\end_inset
+
+) is equal to the cost function.
+ We plotted the difference between the initial frequency of the mutant 
+\begin_inset Formula $q_{0}$
+\end_inset
+
+ and its fixation probability against (
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+) for different 
+\begin_inset Formula $N$
+\end_inset
+
+ and 
+\begin_inset Formula $k$
+\end_inset
+
+ (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:heatmaps"
+
+\end_inset
+
+).
+ Positive values indicate a selective advantage.
+ When the cost functiuon is concave (
+\begin_inset Formula $k$
+\end_inset
+
+=2.0), and
+\begin_inset Formula $N$
+\end_inset
+
+=100 we found that the switching gene is advantageous for a large range
+ of (
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+).
+ This becomes more restricted for larger populations and a convex cost function
+ (
+\begin_inset Formula $k$
+\end_inset
+
+=0.5).
  It follows that in situations with low selection for the switching gene
  (e.g.
  large populations with frequent sex), a high cost for mating type switching
  is likely to either compromise switching rates or impede the spread of
  the switching gene all together.
- (NOTE: this is good, there are cases where switching would not spread!).
- We can comment more on the shape of the cost function and tis effect on
- the outcome.
- 
-\end_layout
-
-\begin_layout Standard
-(We have thus far assumed minimal pressure in partner finding in that as
- long as cells of different mating type are present in the population they
- will mate.
- We asked how would varying selection pressure during sex alter our results.
- If the time during which cells can form sexual pairs or only a proportion
- of them can mate.
- This is in effect what in terms of the life cycle? ? this makes no real
- difference, it can go in the SI).
- An alternative would be to look at fluctuating population sizes.
- For example, we can assume that after sex only a few spores survive (e.g.
- because variation following sex means some super fit and some super unfit
- offspring).
- Then we go from N down to N/q and then amplify back to N and grow for a
- bit.
- This is an alternative way of generating variation, may be getting a bit
- repetitive but I can try it and we can think of it as SI if nothing interesting
- comes up.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -852,35 +1168,185 @@ Multiple mating types
 \end_layout
 
 \begin_layout Standard
-Many species have multiple mating types (m>2) [refs].
+Many species have multiple mating types (
+\begin_inset Formula $m>$
+\end_inset
+
+2) [refs].
  How does the number of mating types affect our findings? In this section
- we vary m from 2 to 20 and compute the fixation probability of s.
- The larger the number of mating types, the more advantageous the switching
- gene.
- Also, pfix increases with population size.
- Here is why (I think):
+ we vary 
+\begin_inset Formula $m$
+\end_inset
+
+ from 2 up to 30.
+ Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vary_m"
+
+\end_inset
+
+A shows the fixation probability of the switching gene for 
+\begin_inset Formula $N$
+\end_inset
+
+=5000, 10000 and varying 
+\begin_inset Formula $m$
+\end_inset
+
+.
+ We find that selection on the switching allele increases as the number
+ of mating types increases.
+ Maintaining equal frequencies of all mating types in a population harboring
+ multiple mating types becomes challenging for higher 
+\begin_inset Formula $m$
+\end_inset
+
+: the larger the value of 
+\begin_inset Formula $m$
+\end_inset
+
+ the stronger drift on each mating type [ref].
+ For example, Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vary_m"
+
+\end_inset
+
+B shows the frequencies of each of the mating types for 
+\begin_inset Formula $m$
+\end_inset
+
+=10 during vegetative growth.
+ Although gworth starts with nearly all mating types at equal numbers, after
+ 100 divisions the mating type ratio is distroted significantly and following
+ 500 divisions some mating types are lost all together (this is for a large
+ population, 
+\begin_inset Formula $N$
+\end_inset
+
+=10000).
+ A low swithcing rate, 
+\begin_inset Formula $p_{s}$
+\end_inset
+
+=0.1, is sufficient to maintain the mating type ratio through multiple rounds
+ of growth (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:vary_m"
+
+\end_inset
+
+B).
+ 
 \end_layout
 
 \begin_layout Standard
-Multiple mating types means partner finding is easier Vegetative growth
- means that even if the ratios of the different mating types are approximately
- the same following sex, there will be some distortion in the ratio by the
- time the population has sex again This means that some types will be rare
- or lost Cells that can switch can make daughters of all types, including
- rare ones (see histograms in Fig.
- 5) This will give them an advantage This advantage is actually larger for
- larger populations (Fig.
- 5).
- This is because in small populations with many mating types there is a
- lot of drift which means that rare types will end up being lost instead
- of remaining rare and advantageous (I have some histogram comparisons for
- this, this will be SI material) The increase in pfix with the number of
- mating types plateaus after a point.
- I think that this is because no additional advantage for more mating types
- exists after m>10 or so.
- Or at least the advantage for additional types is very low.
- I need to think about this better.
+[NOTE: I am not sure why there is a decline in pfix for larger m here, it
+ may have to do with the population size as we see less of a drop for a
+ larger population, perhaps it has to do with 30 mating types not being
+ that much better than 20.
+ If you have 30 mating types and 4 are lost by drift is not that much of
+ a deal as if you had 20 types and lost 4.
+ I need to check this.
+ How does m affect ps*?]
+\end_layout
+
+\begin_layout Subsection
+Fluctuating population size
+\end_layout
+
+\begin_layout Standard
+We have so far asummed that the population size is fixed.
+ In reality the size of a colony of protists may vary substantially.
+ For example, a sudden abandance of food may result in an increase in the
+ population size, and invation by pradators or dispersal can lead to a deacre
+ in 
+\change_inserted 385438751 1439290348
+
+\begin_inset Formula $N$
+\end_inset
+
+
+\change_unchanged
+.
+ These processes are likely to be sources of additional variation impacting
+ the mating type ratio.
+ Here we extend our model and consider a population that periodically goes
+ through a change in size.
+ At any given step in the life cycle we allow the population size to change
+ from 
+\begin_inset Formula $N$
+\end_inset
+
+ to 
+\begin_inset Formula $N^{\prime}$
+\end_inset
+
+ with probability 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ The initial population size is then resotred by sampling without replacement.
  
+\begin_inset Formula $N^{\prime}$
+\end_inset
+
+ can be larger or smaller than 
+\begin_inset Formula $N$
+\end_inset
+
+ and is drawn from a normal distirbution with mean 
+\begin_inset Formula $\mu$
+\end_inset
+
+ and variance 
+\begin_inset Formula $σ^{2}$
+\end_inset
+
+.
+ We plotted the fixation probability of the switching gene aagainst the
+ switching rate for different 
+\begin_inset Formula $r$
+\end_inset
+
+ and 
+\begin_inset Formula $(\mu,σ^{2})$
+\end_inset
+
+, and a large population (
+\begin_inset Formula $N$
+\end_inset
+
+=1000).
+ The fixation probability is now higher than that see for 
+\begin_inset Formula $N$
+\end_inset
+
+ = 1000 in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:optimal_ps"
+
+\end_inset
+
+A.
+ In addition, qfix increases for values beyond ps=0.1 suggesting that frequent
+ changes in the ppu;ation size would require higher swithcing rates to maintain
+ an even sex ratio.
+ The value of qfix is larger when r increases, i.e.
+ more frequent changes in the population size lead to stronger selection
+ for switching.
+ Finally, frequent changes to larger rather than smaller populations are
+ expected to generate more variation in the mating type ratio (Fig.
+ SI) and so result in stronger selection for stochastic switching (Fig.).
 \end_layout
 
 \begin_layout Section
@@ -888,8 +1354,39 @@ Discussion
 \end_layout
 
 \begin_layout Standard
-- testing the theory? Suggestions for comparative analyses in yeast.
+- we show that various aspects of an organisms ecology can be sources of
+ drift and distort mating type ratio.
+ This can drive selection for mating type switching.
+ Low rates often satisfactory to restore ratio, this may be more frequenct
+ to what we actually think.
+ 
+\end_layout
+
+\begin_layout Standard
+-Relate to what we know from reality
+\end_layout
+
+\begin_layout Standard
+-testing the theory? Suggestions for comparative analyses in yeast.
  Discuss some of the mechanisms, h90 versus h40 strains read 
+\end_layout
+
+\begin_layout Standard
+-we predict low swithcing probabilities for species with a long vegetative
+ growth.
+ Ciliates have this, is their swicthing rate lower than yeast? 
+\end_layout
+
+\begin_layout Standard
+-yeats can exist as dormant spore for a long time and so fall under the
+ fluctuating environment types, predict higher switching rates.
+ 
+\end_layout
+
+\begin_layout Standard
+-Relate this to the Paixao paper, how are they similar and how are they
+ different.
+ 
 \end_layout
 
 \begin_layout Section
@@ -900,7 +1397,7 @@ Figures and Tables
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1022,7 +1519,7 @@ Number of vegetative
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $p$
+\begin_inset Formula $p_{s}$
 \end_inset
 
 
@@ -1031,7 +1528,15 @@ status open
 
 \begin_layout Plain Layout
 Let's just keep pswitch simple as p, and prevent confusion with frequencies
- which are now q 
+ which are now q
+\end_layout
+
+\begin_layout Plain Layout
+I like it as ps because it makes it clear that it is a switching probability
+ and there are many probabilities involved...
+ but I like the suggestion to use q for the frequency of the allele.
+ I need to edit the figures to match this but will do once we have agreed
+ on what we want.
 \end_layout
 
 \end_inset
@@ -1103,7 +1608,7 @@ Frequency of the mutant switching allele
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $q_{\mathrm{initial}}$
+\begin_inset Formula $q_{0}$
 \end_inset
 
 
@@ -1139,6 +1644,8 @@ Initial frequency of the switching gene
 
 \begin_layout Plain Layout
 Probability that the mutant switching allele goes to fixation
+\change_inserted 385438751 1439229347
+
 \end_layout
 
 \end_inset
@@ -1160,13 +1667,37 @@ Probability that the mutant switching allele goes to fixation
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
+
+\change_inserted 385438751 1439229802
+\begin_inset Graphics
+	filename LifeCycle.pdf
+	scale 60
+
+\end_inset
+
+
+\change_unchanged
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The life cycle consists of five phases: 
+The life cycle begins with N individuals of m mating types at equal rates
+ 1/m.
+ All individuals grow and divide mitotically to produce two daughters of
+ the same mating type as the parent cell.
+ Individuals that posses the mating type switching gene can produce one
+ daughter with mating type that differs from their own.
+ For example, the purple cells produced one purple and one orange cell inidcatin
+g a mating type swithcing event.
+ After growth the population returns to its initial size.
+ This is repeated g times.
+ At the end of the vegetative growth cells enter the sexual phase where
+ they form pairs of different mating type until no more heterotypic pairs
+ are possible.
+ The population size then returns to N and the new vegetative round begins.
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:life_cycle"
@@ -1181,10 +1712,286 @@ name "fig:life_cycle"
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Variation_in_g.pdf
+	scale 80
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Text 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vary_g"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename optimal_ps.pdf
+	scale 80
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Text 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:optimal_ps"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename freqDep.pdf
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+text 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:freq_dep"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename heatmaps.pdf
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:heatmaps"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename varying_m.pdf
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vary_m"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename vary_size.pdf
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+text 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:vary size"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+section{Appendix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Some analytic derivations to complement results.
+ 
+\end_layout
+
+\begin_layout Standard
+Give more details on methods
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
