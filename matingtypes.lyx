@@ -94,7 +94,11 @@ The Evolution of Mating-Type Switching
 \end_layout
 
 \begin_layout Author
-Zena Hadjivasiliou
+Zena 
+\lang british
+Hadjivasiliou
+\lang english
+
 \begin_inset Formula $^{1,2,3}$
 \end_inset
 
@@ -493,9 +497,28 @@ their
 its
 \change_unchanged
  evolutionary origins.
- Naively, one could argue that mating type switching allows a typically
- outbreeding organism to occasionally mate with their sibling gametes when
- mates are limited.
+ An exception is an evolutionary study by 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Paixao2011"
+
+\end_inset
+
+, who studied the evolution of stochastic mating type determination following
+ sex and recombination.
+ This study shows that species with multiple mating type would benefit from
+ stochastically swicting their mating type following sex so that the mating
+ type of the offspring is randomised.
+ Such a mechanis counters a distortion in the sex ratio due to mating between
+ multiple types and can explain sex determination mechanisms such as those
+ seen in Tetrahemena.
+ Many other ciliates and yeats however swicth their mating type during vegetativ
+e growth.
+ In addition, mating type swicthing is common in yeasts that have only two
+ mating types.
+ Naively, one could argue that mating type switching allows a normally outbreedi
+ng organism to occasionally mate with their sibling gametes when mates are
+ limited.
  However
 \change_inserted 385438751 1439303523
  several species such as
@@ -550,23 +573,6 @@ The majority of protists reproduce clonaly with sex occuring rarely following
  what the rates would be.
 \change_unchanged
 
-\end_layout
-
-\begin_layout Standard
-
-\change_inserted 385438751 1439221889
-I think the following should go in the discussion.
- This is a really nice model but different to what we are doing.
- 
-\change_unchanged
-An exception is an evolutionary study by 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Paixao2011"
-
-\end_inset
-
-, who showed that pure stochastic types of mating determination
 \end_layout
 
 \begin_layout Standard
@@ -722,32 +728,6 @@ reference "tab:symbols"
 Results
 \end_layout
 
-\begin_layout Standard
-this is a fabulous result 
-\begin_inset Formula $z=\mathrm{exp}$
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Anthes2008"
-
-\end_inset
-
-
-\begin_inset CommandInset citation
-LatexCommand citet
-key "Anthes2008"
-
-\end_inset
-
- 
-\change_inserted 385438751 1439223491
-What is this?! 
-\change_unchanged
-
-\end_layout
-
 \begin_layout Subsection
 Two mating types
 \end_layout
@@ -792,7 +772,12 @@ key "Wright1931,Ewens2010"
 \end_inset
 
 .
- 
+ The fixation probability is a good measure of selection against drift in
+ a finite population; the difference between pfix and 
+\begin_inset Formula $q_{0}$
+\end_inset
+
+ is indicative of the strength of selection.
 \end_layout
 
 \begin_layout Standard
@@ -1349,32 +1334,135 @@ A.
  SI) and so result in stronger selection for stochastic switching (Fig.).
 \end_layout
 
+\begin_layout Subsection
+Switching likely to be unstable
+\end_layout
+
+\begin_layout Standard
+Add an extra section where we actually look at the stability of the switching
+ gene and switching rates.
+ The idea is that switching is an unstable trait.
+ It evolves and is adaptive when compared to neutral mutations.
+ But things like the swicthing rate itself could fluctuate.
+ This is because mutations that increase the switching rate above its optimal
+ value are essentially neutral.
+ This is true unless there is a significant cost associated with switching.
+ But it gets even more complicated because switching is also frequency depentent
+ (negatively) and selection on it only operates at sex.
+ I am not sure how to further quantify these issues or if we need to.
+ Also, in a totally neutral scenario e.g.
+ where the expression levels of a given gene do not change its adaptiveness
+ we expect to see lots of noise in the expression levels (which is how I
+ think of the switching rate...).
+ I don't know how we would compare our case to a neutral situation.
+ Bram, you seem to be more familiar with this.
+ Any ideas? 
+\end_layout
+
 \begin_layout Section
 Discussion
 \end_layout
 
 \begin_layout Standard
-- we show that various aspects of an organisms ecology can be sources of
- drift and distort mating type ratio.
- This can drive selection for mating type switching.
- Low rates often satisfactory to restore ratio, this may be more frequenct
- to what we actually think.
+[KEY POINTS FOR DISCUSSION: selection on the swicthing locus is freaquency
+ dependent and can be weak.
+ Also no selection during vegetative growth, only sex.
+ So we expect it to be a recurrent trait.
+ Prediction on role of ecology on switching rates.
+ Suggest experiments.
+ Make predictions.
+ Discuss what we know and relate it to our results.]
+\end_layout
+
+\begin_layout Standard
+In this work we consider the evolution and consequences of stochastic sex
+ determination in protists, where the mating type of individuals can change
+ probabilistically during vegetative growth.
+ This has been well documented in yeasts and ciliates but no theory to date
+ explains its function and evolution.
+ Our work indicates that several aspects of an organism's ecology, such
+ as the size of the population, the number of mating types and dispersal
+ during clonal growth can be sources of drift which can distort the mating
+ type ratio during clonal growth.
+ Our findings suggest that stochastic mating type switching during vegetative
+ growth can serve to maintain an even mating type ratio in the population,
+ thereby increasing the probability of finding compatible partners at the
+ sexual phase for cells with switching capacisty.
  
 \end_layout
 
 \begin_layout Standard
--Relate to what we know from reality
+The strength of selection increases in cases where the mating type ratio
+ fluctuates more, namely in smaller populations with long periods of vegetative
+ growth, high probability of sharp population size changes or multiple mating
+ types.
+ Selection on the switching gene operates in a negative frequency dependent
+ manner and only acts at sex.
+ The switching gene is in fact selectively neutral during the vegetative
+ phase and could be subject to perpetual loss and evolution particularly
+ in species with long vegetative growth phases and consistently large population
+ size, or if switching itself comes at a cost (e.g.
+ by delaying mitosis).
+ We therefore predict that mating type swicthing is an unstable trait that
+ could go through multiple rounds of fixation and extinction.{{So we expect
+ this to be very unstable -- we can recommend some experiments here.
+ Also may need some additional results as a final results section.
+ Bram what does your biology knowledge tell you?! I think that the experiments
+ you described to me with loss and regain of the capacity to switch would
+ go nicely here but I don't know if Bart has actually published these? We
+ can make interesting predictions either way....}}
+\end_layout
+
+\begin_layout Standard
+The optimal switching rate depends on the amount of distortion the mating
+ type ratio is subject to.
+ We predict larger switching rates in small populations or in species with
+ frequent population size changes and dispersal (NOTE: Bram, I know yeast
+ has high dispersal, do we know anything about switching rates in yeast
+ compared to paramecium for example? I'd say our model predicts lower switching
+ rates for paramecium than yeast.
+ Paramecium has large g.).
+ Generally, our findings suggest that low switching rates (of the order
+ of 0.1 per generation) are sufficient to preserve a nearly even mating type
+ ratio.
+ This is particularly true when the vegetative growth phase is long.
+ Although long vegetative phases can distort the mating type ratio more,
+ they also provide more time for switching to occur, countering the effects
+ of drift.
+ So even though long vegetative growth is linked to higher selection pressure
+ for switching, it should also be associated with lower switching rates.
+ Finally, we predict switching rates to be as high as 0.5 in small populations
+ or species with frequent dispersal.
+ NOTE: We should discuss what we know about different species and make predictio
+ns here.
+ Do we know any actual rates?
+\end_layout
+
+\begin_layout Standard
+The presence of multiple mating types is common amongst protists [ref].
+ The amount of drift on the mating type locus increases with the number
+ of mating types, and so swicthing becomes more favourable as the number
+ of mating types increases.
+ This echoes the findings of Paixao et al who showed that stochastic sex
+ determination following recombination is adaptive in species with multiple
+ mating types.
+ This study, however did not conider the role of clonal gorwth, arguably
+ the longesr growth phase in most protists life cycles.
+ It explains the mechanism in Tetrahemena but not other ciliates and yeasts
+ where switching happens during the growth phase.
+\end_layout
+
+\begin_layout Standard
+Other situation is reduction of population size before sex.
+ Discuss various possible sources of drift in reality and how they may relate
+ here.
+ 
 \end_layout
 
 \begin_layout Standard
 -testing the theory? Suggestions for comparative analyses in yeast.
- Discuss some of the mechanisms, h90 versus h40 strains read 
-\end_layout
-
-\begin_layout Standard
--we predict low swithcing probabilities for species with a long vegetative
- growth.
- Ciliates have this, is their swicthing rate lower than yeast? 
+ Discuss some of the mechanisms, h90 versus h40 strains read.
+ Bram, this was your note! Thoughts?! It sounds interesting!
 \end_layout
 
 \begin_layout Standard
@@ -1384,8 +1472,23 @@ Discussion
 \end_layout
 
 \begin_layout Standard
--Relate this to the Paixao paper, how are they similar and how are they
- different.
+Our study highlights the importance of drift on the sex ratio and the mechanisms
+ that determine it.
+ We modelled a number of different ecological parameters that can be sources
+ of variation in the mating type ratio.
+ These are not exclusive and other things may come in.
+ 
+\end_layout
+
+\begin_layout Standard
+interesting, not a response to not finding a partner but a provisional mechanism
+ that ensures drift does not mess things up for when it's time for sex.
+\end_layout
+
+\begin_layout Standard
+So our work can explain why we need swicthing during growth (not just at
+ sex) but also make predictions of how this gene would evolve and how to
+ expect tp find it appearing and being lost and siwtching rates.
  
 \end_layout
 
