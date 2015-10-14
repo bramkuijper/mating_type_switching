@@ -850,7 +850,7 @@ We next asked how the switching rate itself,
 \begin_inset Formula $p_{s}$
 \end_inset
 
-, , affects the evolution of the switching locus.
+, affects the evolution of the switching locus.
  We gradually introduced mutations conferring an incrementally higher switching
  probability in a quantitative manner (Fig.2C).
  The selection gradient is steep as ps rises from 0 and plateaus with larger
@@ -861,29 +861,20 @@ We next asked how the switching rate itself,
  Although a prolonged period of vegetative growth increases selection for
  the switching gene it also provides a larger time window for restoration
  of the sex ratio.
- So despite large values of g correlating with stronger selection for ps
+ So despite large values of g correlating with stronger selection for 
+\begin_inset Formula $p_{s}$
+\end_inset
+
  (also indicated by the steep selection gradient for smaller g; blue and
  red versus black curve in Fig.2C) they are linked to lower ps.
  Furthermore, the effect of the population size on the value of ps* is minimal
  compared to that of g (Fig.
  SI).
- Only for low g do we see a distinction due to N: smaller populations require
- larger 
-\begin_inset Formula $p_{s}$
-\end_inset
-
-, when g is small.
- For larger g even small populations can maintain a reasonable mating-type
- ratio with low 
-\begin_inset Formula $p_{s}$
-\end_inset
-
- (Fig.
- SI).
- Our model therefore suggests that relatively low switching rates can be
- sufficient to maintain the mating type ratio near 1 in species with two
- mating types, particularly for populations that live in consistently larger
- populations and have prolonged asexual life cycles.
+ Although the population size can affect the strength of selection, it has
+ little to no effect on the optimal value of ps.
+ Our model also suggests that relatively low switching rates can be sufficient
+ to maintain the mating type ratio near 1 in species with two mating types,
+ particularly for populations that have prolonged asexual life cycles.
  
 \end_layout
 
